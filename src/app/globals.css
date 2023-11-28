@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, blue, red, yellow, red, blue, red, yellow);
+  background-size: 300% 300%;
+  background-clip: text;
+  color: transparent;
+}
